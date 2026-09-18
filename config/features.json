@@ -1,0 +1,16 @@
+{
+  "version": "technical-v1.0",
+  "sma_periods": [5, 10, 20, 50, 200],
+  "ema_periods": [12, 26, 50],
+  "return_periods": [1, 5, 20],
+  "rsi_period": 14,
+  "atr_period": 14,
+  "macd": [12, 26, 9],
+  "bollinger_period": 20,
+  "bollinger_sigma": 2.0,
+  "volatility_periods": [20, 60],
+  "annual_sessions": 252,
+  "range_period": 252,
+  "volume_period": 20,
+  "core_features": ["return_1d", "sma_20", "ema_26", "rsi_14", "macd_signal", "atr_14", "volatility_20"]
+}

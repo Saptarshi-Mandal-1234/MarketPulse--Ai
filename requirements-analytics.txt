@@ -1,0 +1,2 @@
+-r requirements-quality.txt
+-e .[analytics]

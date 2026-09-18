@@ -1,0 +1,79 @@
+[
+  {
+    "symbol": "NIFTY50",
+    "name": "NIFTY 50",
+    "kind": "index",
+    "sector": "Index",
+    "provider_symbol": "^NSEI"
+  },
+  {
+    "symbol": "RELIANCE",
+    "name": "Reliance Industries",
+    "kind": "equity",
+    "sector": "Energy",
+    "provider_symbol": "RELIANCE.NS"
+  },
+  {
+    "symbol": "HDFCBANK",
+    "name": "HDFC Bank",
+    "kind": "equity",
+    "sector": "Banking",
+    "provider_symbol": "HDFCBANK.NS"
+  },
+  {
+    "symbol": "ICICIBANK",
+    "name": "ICICI Bank",
+    "kind": "equity",
+    "sector": "Banking",
+    "provider_symbol": "ICICIBANK.NS"
+  },
+  {
+    "symbol": "INFY",
+    "name": "Infosys",
+    "kind": "equity",
+    "sector": "IT",
+    "provider_symbol": "INFY.NS"
+  },
+  {
+    "symbol": "TCS",
+    "name": "Tata Consultancy Services",
+    "kind": "equity",
+    "sector": "IT",
+    "provider_symbol": "TCS.NS"
+  },
+  {
+    "symbol": "BHARTIARTL",
+    "name": "Bharti Airtel",
+    "kind": "equity",
+    "sector": "Telecom",
+    "provider_symbol": "BHARTIARTL.NS"
+  },
+  {
+    "symbol": "ITC",
+    "name": "ITC",
+    "kind": "equity",
+    "sector": "Consumer",
+    "provider_symbol": "ITC.NS"
+  },
+  {
+    "symbol": "LT",
+    "name": "Larsen & Toubro",
+    "kind": "equity",
+    "sector": "Industrials",
+    "provider_symbol": "LT.NS"
+  },
+  {
+    "symbol": "SBIN",
+    "name": "State Bank of India",
+    "kind": "equity",
+    "sector": "Banking",
+    "provider_symbol": "SBIN.NS"
+  },
+  {
+    "symbol": "HINDUNILVR",
+    "name": "Hindustan Unilever",
+    "kind": "equity",
+    "sector": "Consumer",
+    "provider_symbol": "HINDUNILVR.NS"
+  }
+]

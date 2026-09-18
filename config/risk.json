@@ -1,0 +1,11 @@
+{
+  "version": "risk-v1",
+  "high_volatility": 0.35,
+  "low_volatility": 0.15,
+  "abnormal_volume_multiple": 2.0,
+  "return_z_threshold": 3.0,
+  "isolation_training_rows": 252,
+  "isolation_minimum_rows": 120,
+  "isolation_contamination": 0.05,
+  "seed": 42
+}

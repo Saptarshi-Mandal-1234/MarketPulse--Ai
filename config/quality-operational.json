@@ -1,0 +1,9 @@
+{
+  "version": "2.0",
+  "absolute_return_warning": 0.2,
+  "volume_median_multiple": 10.0,
+  "volume_window": 20,
+  "volume_min_periods": 10,
+  "calendar_status": "2026 annual circular with sourced amendments, reviewed 2026-09-15; expires 2027-01-01",
+  "calendar_reference": "config/nse_sessions_operational.json"
+}

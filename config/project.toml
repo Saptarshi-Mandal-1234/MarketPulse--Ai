@@ -1,0 +1,12 @@
+project = "MarketPulse AI"
+contract_version = "1.0"
+timezone = "Asia/Kolkata"
+currency = "INR"
+interval = "1d"
+history_start = "2015-01-01"
+benchmark = "NIFTY50"
+provider = "yahoo_research"
+adjustment = "explicit_adj_close"
+prediction_cutoff_local = "18:00"
+horizons_sessions = [1, 5]
+direction_threshold = 0.0

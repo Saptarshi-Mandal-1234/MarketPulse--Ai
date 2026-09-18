@@ -1,0 +1,8 @@
+{
+  "version": "analytics-v1.0",
+  "annual_sessions": 252,
+  "risk_free_annual": 0.0,
+  "minimum_return_observations": 30,
+  "rolling_sessions": 60,
+  "benchmark": "NIFTY50"
+}

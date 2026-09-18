@@ -1,0 +1,12 @@
+{
+  "version": "research-models-v1",
+  "seed": 42,
+  "initial_train_years": 3,
+  "validation_months": 3,
+  "holdout_months": 12,
+  "trees": 40,
+  "max_depth": 6,
+  "xgb_trees": 60,
+  "xgb_depth": 3,
+  "learning_rate": 0.05
+}

@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "marketpulse-ai"
+version = "1.0.0"
+description = "Reproducible Indian equity analytics, forecasting research, and Power BI reporting"
+requires-python = ">=3.11,<3.15"
+dependencies = ["psycopg[binary]>=3.3,<4", "python-dotenv>=1.1,<2"]
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "ruff>=0.12,<1", "pglast>=7,<8", "jsonschema>=4,<5"]
+data = ["pandas>=2.2,<4", "yfinance>=0.2.65,<2", "pyarrow>=20,<30"]
+quality = ["holidays>=0.104,<1"]
+analytics = ["matplotlib>=3.10,<4"]
+models = ["scikit-learn>=1.7,<2", "xgboost>=3,<4", "joblib>=1.5,<2"]
+[project.scripts]
+marketpulse = "marketpulse.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+[tool.ruff]
+target-version = "py311"
+line-length = 100
